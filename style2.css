@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(185, 185, 236);
+}
+
+
+.hedadmenu {
+    background-color: rgb(10, 10, 128);
+    color: rgb(11, 19, 26);
+}
+a {
+    color: aliceblue;
+}
+h2 {
+    color: rgb(8, 8, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h3 {
+    color: rgb(8, 8, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.my-image {
+    width: 40px;
+}
+p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    background-color: rgb(218, 199, 236);
+}
+.Galereja > img {
+    width: 400px;
+}
+.small {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Объединяет границы ячеек в одну */
+  }
+  th, td {
+    border: 1px solid #ddd; /* Добавляет рамку к ячейкам */
+    padding: 8px; /* Отступы внутри ячеек */
+    text-align: left; /* Выравнивание текста */
+  }
+  td {
+    background-color: #f4f4f4; /* Цвет фона заголовков */
+  }
+   th {
+    background-color: #799bf7; /* Цвет фона заголовков */
+  }
+  div {
+    margin: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -5px rgba(122, 95, 241, 0.3); /* Тень снизу */
+
+  }
+  .Galereja > img {
+    margin: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -5px rgba(122, 95, 241, 0.3); /* Тень снизу */
+
+  }
+  .blu {
+    color: rgb(4, 36, 65);
+  }

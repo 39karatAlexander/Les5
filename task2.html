@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="hedadmenu">
+        <img src="master.png" class="my-image">
+        <a href="#hedadmenu" target="_self"></a>
+        <a href="#header" target="_self">О нас</a>
+        <a href="#Uslugi" target="_self">Виды услуг</a>
+        <a href="#Galereja" target="_self">Галерея</a>
+        <a href="#Plan" target="_self">Планирование</a>
+        <a href="#footer" target="_self">Контакты</a>
+    </div>
+
+    <div class="header" id="header">
+       <h2>О нас</h2>
+       <span>Наша фирма основана в 2025 году</span><br>
+       <span>Мы занимаемся ремонтом и отделкой жилых помещений, а так же декорирование квартир повле ремонта</span>
+
+    </div>
+
+    <div class="Uslugi" id="Uslugi">
+        <h2>Виды услуг</h2>
+        <h3>Самые популярные</h3>
+        <ol>
+            <li>Ремонт из "серого ключа"</li>
+            <li>Ремонт из "белого ключа"</li>
+            <li>Ремонт "вторички"</li>
+            <li>Сантехнические работы</li>
+            <li>Электротехнические работы</li>
+            <li>Декорирование помещений</li>
+        </ol>
+
+        <h3>Сроки исполнения</h3>
+        <table>
+        <tr>
+            <th>Наименование работы</th>
+            <th>Срок ремонта</th>
+            <th>Стоимость работ за 1 м2</th>
+        </tr>
+        <tr>
+            <td>Ремонт из "серого ключа"</td>
+            <td>3 месяца</td>
+            <td>45 000 рублей</td>
+        </tr>
+        <tr>
+            <td>Ремонт из "белого ключа"</td>
+            <td>2 месяца</td>
+            <td>30 000 рублей</td>
+        </tr>
+            <td>Ремонт "вторички"</td>
+            <td>5 месяцев/td>
+            <td>60 000 рублей</td>
+
+        
+        </table>
+
+    </div>
+    
+    <div class="Galereja" id="Galereja">
+        <h2>Галерея</h2>
+        <p>Ремонт в классическом стиле</p>
+        <img src="1.jpg"><br>
+        <span class="small">Использованы белые тона</span>
+
+        <p>Ремонт в стиле лофт</p>
+        <img src="2.jpg"><br>
+        <span class="small">Романтическая подсветка</span>
+
+        <p>Евроремонт</p>
+        <img src="3.jpg"><br>
+        <span class="small">Контрастный тона</span>
+
+        <p>Ремонт "Эконом"</p>
+        <img src="4.jpg"><br>
+        <span class="small">Не стандартные решения</span>
+
+        <p>Больше фотографий вы можете найти на наших ресурсах</p>
+        <ul>
+            <li>
+                <a class="blu" href="5.jpg">Квартира 1</a>
+            </li>
+            <li>
+                <a class="blu" href="6.jpg">Квартира 2</a>
+            </li>
+            <li>
+                <a class="blu" href="7.jpg">Квартира 3</a>
+            </li>
+        </ul>
+        
+    </div>
+    
+    <div class="Plan" id="Plan">
+        <h2>Планирование ремонта</h2>
+
+        <form action="#" method="POST">
+            <label for="name">Ваше имя</label><br>
+            <input type="text" id="name" name="user_name" placeholder="Введите ваше имя" required><br>
+
+            <label for="post">Email</label><br>
+            <input type="email" id="post" name="post_name" placeholder="Введите вашу почту" required><br>
+            
+            <label for="vid">Выберете вид ремонта</label><br>
+            <select id="vid" name="vid_name" required>
+                <option value="1">Ремонт из "серого ключа"</option>
+                <option value="2">Ремонт из "белого ключа"</option>
+                <option value="3">Ремонт "вторички"</option>
+                <option value="4">Сантехнические работы</option>
+                <option value="4">Электротехнические работы</option>
+                <option value="5">Декорирование помещений</option>
+            </select>
+            <p>Когда собираетесь приступать к ремонту?</p><br>
+            <label>
+                Немедленно
+                <input type="radio" name="srok" value="srok" checked>
+            </label><br>
+            <label>
+                Через месяц
+                <input type="radio" name="srok" value="srok2">
+            </label><br>
+            <label>
+                Через год
+                <input type="radio" name="srok" value="srok2">
+            </label><br>
+
+            <label for="message">Ваше сообщение:</label><br>
+                Укажите Ваши пожелания
+                <textarea id="message" name="message" maxlength="300" rows="5" cols="30">
+                </textarea>
+        </form>
+        
+    </div>
+
+     <div class="footer" id="footer">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами для получения дополнительной информации</p>
+        <ul>
+            <li>Телефон +7 888 99 66 44</li>
+            <li>Email 84krot@gmail.com</li>
+            <li>Адрес: Калининград пр. Мира 1</li>
+        </ul>
+    </div>
+</body>
+</html>
